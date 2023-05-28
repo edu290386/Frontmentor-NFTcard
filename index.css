@@ -20,20 +20,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .container{
-    width: 335px;
+    width: 325px;
 }
 
 .card-photo img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .container-product{
-    padding: 20px 0 20px 0;
+    padding: 25px 0 20px 0;
 }
 
 .container-product h4{
@@ -49,6 +49,10 @@ body {
     color: #eaeef4;
 }
 
+.text-white:hover{
+    color:  hsl(178, 100%, 50%);
+}
+
 .text-gray{
     color: #586F8D;
     font-weight: 300;
@@ -56,7 +60,9 @@ body {
 
 .container-detail{
     display: flex;
-
+    justify-content: space-between;
+    border-bottom: 1px solid #586F8D;
+    padding-bottom: 25px;
 }
 
 .text-eth{
@@ -71,7 +77,8 @@ body {
 .container-author{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
+    padding-top:25px;
 }
 
 .image-author{
